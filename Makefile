@@ -3,5 +3,4 @@ build:
 	chmod +x bin/spark_connect_app
 install-deps:
 	go mod tidy
-run:
-	bin/spark_connect_app
+all: install-deps build
