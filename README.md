@@ -5,20 +5,20 @@ to submit a job to a Spark cluster.
 
 ## Requirements
 
-* go 1.23 or later
+* go 1.26 or later
 * GNU Make
 
 ## Installing Spark
 
 ```bash
-curl -LO https://dlcdn.apache.org/spark/spark-4.0.0/spark-4.0.0-bin-hadoop3-connect.tgz && tar xvf spark-4.0.0-bin-hadoop3-connect.tgz
+curl -LO https://dlcdn.apache.org/spark/spark-4.0.4/spark-4.0.4-bin-hadoop3-connect.tgz && tar xvf spark-4.0.4-bin-hadoop3-connect.tgz
 ```
 
 Ensure SPARK_HOME env variable is pointing to the extracted directory. Run this in your
 shell or set this in your `~/.bashrc` or `~/.zshrc`:
 
 ```
-export SPARK_HOME=<path-to>/spark-4.0.0-bin-hadoop3-connect
+export SPARK_HOME=<path-to>/spark-4.0.4-bin-hadoop3-connect
 export PATH="$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH"
 ```
 
